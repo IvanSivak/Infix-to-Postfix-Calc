@@ -1,7 +1,10 @@
-<h2>Linked List in JavaScript</h2>
+<h2>Infix to Postfix converter and Postfix calculator</h2>
 
 <p>
 	See more about the project on my <a href="http://www.ivansivak.net/blog/linkedlist-in-javascript-insertion-performance">blog</a>
+</p>
+<p>
+    To find out more about postfix (also called reverse polish notation) check out the <a href="https://en.wikipedia.org/wiki/Reverse_Polish_notation">https://en.wikipedia.org/wiki/Reverse_Polish_notation</a> 
 </p>
 
 <p>
