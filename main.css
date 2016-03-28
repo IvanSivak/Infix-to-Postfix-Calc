@@ -6,3 +6,6 @@
 .hide{
     display: none;
 }
+input[type="text"]{
+    width: 250px;    
+}

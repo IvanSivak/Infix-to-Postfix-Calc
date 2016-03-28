@@ -30,13 +30,13 @@ var Common = (function(){
                     num += $.trim(str[i]);
                     break;
                 case Common.tokenType.operator:
-                    res.push(parseFloat(num));
+                    if ($.isNumeric(num)) res.push(parseFloat(num));
                     res.push(str[i]);
                     num = '';
                     break;
                 case Common.tokenType.leftPar:
                 case Common.tokenType.rightPar:
-                    if (!isNaN(parseFloat(num))) res.push(parseFloat(num));
+                    if ($.isNumeric(num)) res.push(parseFloat(num));
                     res.push(str[i]);
                     num = '';
                     break;
